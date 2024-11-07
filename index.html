@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi FIFA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0px;
+      color: #333;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+          text-align: center;
+
+    }
+    header, section, footer {
+      margin-bottom: 20px;
+    }
+    h1, h2 {
+      color: #007BFF;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+       text-align: center;
+    }
+    /* Styling untuk navbar */
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      display: flex;
+      justify-content: center; /* Untuk memusatkan navbar */
+    }
+
+    .navbar a {
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      position: fixed; /* Agar navbar tetap di atas saat scroll */
+      top: 0; /* Menempel di bagian atas */
+      width: 100%; /* Lebar penuh layar */
+      z-index: 1000; /* Di atas elemen lain */
+    }
+
+    /* Memberi ruang agar konten tidak tertutup oleh navbar */
+    body {
+      margin-top: 50px;
+    }
+
+    .navbar a {
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    /* Mengatur tampilan tabel */
+    table, th, td {
+      border:1px solid black;
+    }
+
+    .card {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 5px; /* 5px rounded corners */
+    }
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    /* Add some padding inside the card container */
+    .container {
+      padding: 2px 16px;
+    }
+
+    img {
+      border-radius: 5px 5px 0 0;
+    }
+
+    /* Mengatur tampilan card */
+    /* CARD */
+    
+  </style>
+</head>
+<body>
+  <center> 
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/200px-FIFA_logo_without_slogan.svg.png">
+   <div class="navbar">
+    <a href="index.html">Home Page</a>
+    <a href="landing.html">Balon D'or</a>
+    <a href="kontak.html">Contact us</a>
+  </div></center>
+
+  <!-- Header -->
+  <header>
+    <h1>Federation Internationale de Football Association (FIFA)</h1>
+    <p>FIFA adalah badan pengatur internasional untuk sepak bola yang berdiri sejak 1904, mengorganisir berbagai event sepak bola besar di dunia.</p>
+  </header>
+
+  <!-- Main content -->
+  <main>
+
+    <!-- Event Penting FIFA -->
+    <section>
+      <h2>Event-Event Penting yang Diadakan FIFA</h2>
+      <p>  <!-- Tabel dengan satu baris dan tiga kolom -->
+      
+      <p>
+        <table style="width:100%">
+          <tr>
+            <td>
+              <div class="card">
+                <h2>Piala Dunia </h2>
+                  <img src="https://img2.beritasatu.com/cache/beritasatu/960x620-3/1484230342.jpg" style="width:70%">
+              </div>
+              </td>
+              <td>
+              <!-- Card kedua -->
+              <div class="card">
+                <h3>Balon D'or</h3>
+                <img src="https://asset.kompas.com/crops/9EZKjtG0YULhQQS0v5pUw8qsUco=/1x0:1024x682/750x500/data/photo/2022/10/17/634d85bb5133c.jpg" style="width:70%">
+              </div>
+              </td>
+              <td>
+              <!-- Card ketiga -->
+              <div class="card">
+                <h3>Fifa Club World cup </h3>
+                <img src="https://www.digitaltveurope.com/files/2021/02/Fifa-Club-World-Cup.jpg" style="height:300px;width:300px;">
+            </td>
+
+          </tr>
+        </table>
+      </p>
+      </section>
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+      <p>&copy; 2024 - Bernardinus Christian</p>
+  </footer>
+
+</body>
+</html>
